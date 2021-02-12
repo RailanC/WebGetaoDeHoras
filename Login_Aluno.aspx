@@ -106,7 +106,7 @@
                                                     <asp:TextBox ID="txt_PasswordA" runat="server" name="password" placeholder="Password" required="" type="password"></asp:TextBox>
                                                 </div>
                                                 <div style=" margin-top:75px">
-                                                    <asp:Button ID="btn_LoginA" runat="server" Text="LOGIN" class="login100-form-btn" BackColor="Transparent" CssClass="btn-login" />
+                                                    <asp:Button ID="btn_LoginA" runat="server" Text="LOGIN" class="login100-form-btn" BackColor="Transparent" CssClass="btn-login" OnClick="btn_LoginA_Click" />
                                                 </div>
                                             </form>
                                         </div>
